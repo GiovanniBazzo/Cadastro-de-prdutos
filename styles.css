@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: rgb(41, 36, 36);
+    font-family: "Poppins";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(108, 214, 108);
+}
+
+.corpo {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.formulario {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    padding: 50px;
+    border-radius: 8px;
+    background-color: white;
+    width: 450px;
+    height: 450px;
+}
+
+.cadastro {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+}
+
+input {
+    width: 415px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid;
+    background-color: white;
+    font-size: 20px;
+    padding: 0 0 0 15px;
+}
+
+.catalogo {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 30px;
+    width: 450px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.produtoNome {
+    font-size: 24px;
+}
+
+.botao {
+    border-radius: 8px;
+    background-color: rgb(169, 92, 241);
+    width: 100px;
+    height: 40px;
+    margin: 15px 0 0 0px;
+    font-weight: bold;
+}
+
+.resultado {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: 38px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+li {
+    margin-top: 12px;
+}
